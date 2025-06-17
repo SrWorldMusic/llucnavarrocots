@@ -1,0 +1,233 @@
+﻿ANÁLISIS WEB: LLUCNAVARROCOTS.COM
+
+PROBLEMAS DETECTADOS
+1. Rendimiento
+Imágenes pesadas y sin optimización ralentizan la carga. No se aplica lazy loading ni formatos modernos como WebP.
+2. SEO básico
+Faltan metadescripciones en algunas páginas. Títulos no optimizados. Estructura de encabezados mejorable.
+3. Accesibilidad
+Faltan atributos 'alt' en imágenes. El contraste de algunos textos podría no cumplir con estándares WCAG.
+4. Usabilidad
+Menú sin selector de idioma. Falta de llamados a la acción (botones de contacto, inscripción o reserva).
+5. Legalidad
+Banner de cookies poco claro y sin gestión granular del consentimiento (requisito GDPR).
+6. Seguridad
+Aunque el sitio usa HTTPS, es recomendable auditar para evitar contenido mixto (scripts o imágenes HTTP).
+
+
+
+
+MEJORAS RECOMENDADAS
+1. SEO técnico
+Incluir metadescripciones atractivas y únicas por página. Optimizar encabezados con un solo H1 por sección.
+2. Texto alternativo (ALT)
+Añadir descripciones a todas las imágenes. Ej: 'Cartel SUNJOAN con fuego y danza ritual'.
+3. Optimización de imágenes
+Usar formato WebP. Aplicar lazy loading (`loading='lazy'`) y reducir el peso total por debajo de 1MB por página.
+4. Llamados a la acción
+Botones destacados como 'Reserva tu plaza' o 'Escríbeme' visibles en mitad y final de cada sección.
+5. Banner legal de cookies
+Integrar aviso con opción de aceptar, rechazar o personalizar cookies (funcionales, estadísticas, marketing).
+6. Mejora de rendimiento
+Usar herramientas como Google PageSpeed o Lighthouse para detectar bloqueos de renderizado o archivos grandes.
+7. Mobile friendly
+Verificar adaptabilidad de diseño a móviles. Evitar botones demasiado pequeños o elementos no clicables.
+
+
+
+
+
+
+
+PLANTILLAS SEO Y ACCESIBILIDAD
+    1. METADESCRIPCIONES SUGERIDAS
+Inicio
+Lluc Navarro Cots – Combinando Terapia Gestalt, cuerpo, música y creatividad para acompañarte en procesos de transformación personal.
+Sobre mí
+Conoce a Lluc Navarro Cots: terapeuta Gestalt con formación en bioenergética, Eneagrama y facilitador de retiros y talleres vivenciales.
+Blog / Eventos (ej. AQUIARA)
+Descubre AQUIARA: festival-retreat de trabajo corporal y autoconocimiento (13–15 junio). Experiencias vivenciales creadas por Lluc Navarro Cots.
+Contacto
+¿Interesado en sesiones individuales, talleres o retiros? Contacta con Lluc Navarro Cots para acompañarte desde la esencia.
+    2. TEXTO ALTERNATIVO (ALT) PARA IMÁGENES
+Portada
+alt="Lluc Navarro Cots facilitando un círculo terapéutico"
+Cartel AQUIARA
+alt="Cartel festival AQUIARA Yo Universo, 13‑15 junio"
+Imagen Soltarte
+alt="Grupo en retiro Soltarte: teatro, danza y música en la naturaleza"
+Encuentro Buscadores
+alt="Participantes del Encuentro de Buscadores en Moncayo, agosto 2025"
+Imagen SUNJOAN
+alt="Ritual de fuego y danza en SUNJOAN, solsticio en DOHM Tiana"
+    3. FRAGMENTOS HTML ÚTILES
+Ejemplo de metadescripción
+<meta name="description" content="Lluc Navarro Cots – Combinando Terapia Gestalt, cuerpo, música y creatividad para acompañarte en procesos de transformación personal.">
+Ejemplo de imagen optimizada
+<img src="cartel-aquiara.webp" alt="Cartel festival AQUIARA Yo Universo, 13‑15 junio" loading="lazy">
+Ejemplo de botón de acción
+<a href="https://forms.gle/tu-link" style="padding:1rem 2rem; background:#222; color:#fff; text-decoration:none; border-radius:8px;">Reservar ahora</a>
+
+
+PLANTILLA HTML DE EVENTO (retreat, ritual, taller…)
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>AQUIARA – Festival-Retreat Yo Universo | Lluc Navarro Cots</title>
+  <meta name="description" content="Descubre AQUIARA, un encuentro vivencial de cuerpo, arte y conciencia. Facilitado por Lluc Navarro Cots del 13 al 15 de junio en la naturaleza.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css"> <!-- tu CSS -->
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <header>
+	<h1>AQUIARA: Yo Universo</h1>
+	<p>Festival-Retreat de cuerpo, arte y conciencia</p>
+	<p><strong>13–15 de junio · Naturaleza viva · Plazas limitadas</strong></p>
+  </header>
+
+  <!-- IMAGEN DESTACADA -->
+  <section>
+	<img src="aquiara-banner.webp" alt="Cartel del festival AQUIARA Yo Universo, 13 al 15 de junio" loading="lazy" style="width:100%; height:auto;">
+  </section>
+
+  <!-- DESCRIPCIÓN DEL EVENTO -->
+  <section>
+	<h2>¿Qué es AQUIARA?</h2>
+	<p>
+  	AQUIARA es un espacio para recordar quiénes somos desde el cuerpo, el juego, la música, el silencio y el ritual. Un reencuentro contigo y con el grupo, desde el arte y la verdad compartida.
+	</p>
+	<p>
+  	Facilitado por <strong>Lluc Navarro Cots</strong> junto a un equipo multidisciplinar de terapeutas, artistas y guías de procesos.
+	</p>
+  </section>
+
+  <!-- PROGRAMA -->
+  <section>
+	<h2>Programa del encuentro</h2>
+	<ul>
+  	<li>Ceremonias de apertura y cierre</li>
+  	<li> Sesiones de movimiento consciente y danza ritual</li>
+  	<li> Creación colectiva: teatro, voz y pintura</li>
+  	<li> Fuego y silencio – rituales nocturnos</li>
+  	<li> Espacios para integrar desde el descanso y la escucha</li>
+	</ul>
+  </section>
+
+  <!-- INFO PRÁCTICA -->
+  <section>
+	<h2>Información práctica</h2>
+	<ul>
+  	<li>📍 <strong>Lugar:</strong> Masía rural en plena naturaleza (provincia de Barcelona)</li>
+  	<li>🛌 <strong>Incluye:</strong> Alojamiento, comidas vegetales, materiales</li>
+  	<li>💸 <strong>Inversión:</strong> 230 € (todo incluido)</li>
+  	<li>🧍‍♂️ <strong>Plazas:</strong> Máximo 18 personas</li>
+	</ul>
+  </section>
+
+  <!-- BOTÓN DE INSCRIPCIÓN -->
+  <section style="text-align:center; margin: 2rem 0;">
+	<a href="https://forms.gle/tu-link-de-inscripcion" target="_blank" style="padding:1rem 2rem; background:#222; color:#fff; text-decoration:none; font-weight:bold; border-radius:8px;">Inscribirme a AQUIARA</a>
+	<p style="font-size:0.9rem; margin-top:1rem;">Plazas limitadas · Se requiere inscripción previa</p>
+  </section>
+
+  <!-- TESTIMONIOS (opcional) -->
+  <section>
+	<h2>Palabras de quienes ya vivieron AQUIARA</h2>
+	<blockquote>“Una experiencia que me transformó el alma. Volveré cada año.” – Alba, 2024</blockquote>
+	<blockquote>“Lluc sostiene el grupo con una sensibilidad brutal. Me sentí profundamente vista.” – Joan, 2023</blockquote>
+  </section>
+
+  <!-- CONTACTO -->
+  <footer>
+	<p>¿Dudas o preguntas? Escríbeme a <a href="mailto:llucnavarrocots@gmail.com">llucnavarrocots@gmail.com</a></p>
+  </footer>
+
+</body>
+</html>
+
+
+PLANTILLA HTML: SUNJOAN – RITUAL DE FUEGO Y TRANSFORMACIÓN
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>SUNJOAN · Ritual de Fuego y Transformación | Lluc Navarro Cots</title>
+  <meta name="description" content="Celebra el solsticio de verano con SUNJOAN, un ritual colectivo de fuego, danza, música y consciencia, guiado por Lluc Navarro Cots en DOHM Tiana.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <header style="text-align:center; padding:2rem;">
+	<h1>SUNJOAN · Ritual de Fuego</h1>
+	<p>Celebra el solsticio de verano desde el cuerpo y el alma</p>
+	<p><strong>Domingo 23 de junio · 18h–00h · DOHM Tiana</strong></p>
+  </header>
+
+  <!-- IMAGEN PRINCIPAL -->
+  <section>
+	<img src="sunjoan-cartel.webp" alt="Cartel SUNJOAN, ritual de fuego y transformación en DOHM Tiana" loading="lazy" style="width:100%; height:auto;">
+  </section>
+
+  <!-- DESCRIPCIÓN -->
+  <section style="padding:1rem 2rem;">
+	<h2> ¿Qué es SUNJOAN?</h2>
+	<p>
+  	SUNJOAN es un espacio ritual donde celebramos el poder del fuego, el cambio y la luz. Una propuesta colectiva y orgánica que combina danza, música en vivo, fuego, tierra y arte como forma de conexión ancestral y transformación interna.
+	</p>
+	<p>
+  	Guiado por <strong>Lluc Navarro Cots</strong> junto a un equipo de artistas, músicos y facilitadoras, crearemos un espacio seguro y vibrante para dejar ir lo viejo y dar la bienvenida a lo nuevo.
+	</p>
+  </section>
+
+  <!-- PROGRAMA -->
+  <section style="padding:1rem 2rem;">
+	<h2>🌿 Programa de la jornada</h2>
+	<ul>
+  	<li> Círculo de bienvenida y enraizamiento corporal</li>
+  	<li> Ceremonia de fuego con liberación simbólica</li>
+  	<li> Danzas rituales al ritmo de música en vivo</li>
+  	<li> Espacio de silencio, integración y canto</li>
+  	<li> Cierre con infusión y abrazo colectivo</li>
+	</ul>
+  </section>
+
+  <!-- INFO PRÁCTICA -->
+  <section style="padding:1rem 2rem;">
+	<h2> Info práctica</h2>
+	<ul>
+  	<li><strong>Lugar:</strong> DOHM Tiana – espacio interior y zona de fuego exterior</li>
+  	<li><strong>Fecha y hora:</strong> Domingo 23 de junio, de 18h a 00h</li>
+  	<li><strong>Precio:</strong> 25 € (incluye ritual + música + infusión + materiales)</li>
+  	<li><strong>Recomendación:</strong> Trae ropa cómoda, algo simbólico que quieras soltar al fuego, y una flor</li>
+	</ul>
+  </section>
+
+  <!-- CTA / INSCRIPCIÓN -->
+  <section style="text-align:center; margin:2rem 0;">
+	<a href="https://forms.gle/tu-link-de-inscripcion-sunjoan" target="_blank" style="padding:1rem 2rem; background:#000; color:#fff; border-radius:8px; font-weight:bold; text-decoration:none;">Reserva tu plaza</a>
+	<p style="font-size:0.9rem; margin-top:1rem;">Evento limitado a 35 plazas · Confirmación previa requerida</p>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section style="padding:1rem 2rem;">
+	<h2> Experiencias SUNJOAN</h2>
+	<blockquote>“SUNJOAN me reconectó con la tribu, el fuego, el alma. Una ceremonia inolvidable.” – Júlia (2023)</blockquote>
+	<blockquote>“La danza al atardecer y el fuego fueron pura alquimia. Gracias Lluc por tu guía tan sutil y poderosa.” – Eloi (2022)</blockquote>
+  </section>
+
+  <!-- CONTACTO -->
+  <footer style="text-align:center; margin-top:2rem; padding:2rem; background:#f9f9f9;">
+	<p>¿Dudas? Escríbeme a <a href="mailto:llucnavarrocots@gmail.com">llucnavarrocots@gmail.com</a></p>
+	<p>Sígueme en Instagram: <a href="https://www.instagram.com/llucnavarrocots" target="_blank">@llucnavarrocots</a></p>
+  </footer>
+
+</body>
+</html>
+
+

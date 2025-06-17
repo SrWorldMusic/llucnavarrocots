@@ -1,0 +1,13 @@
+- [x] Convertir SR.MUSIC-LLUC-WEB.pdf a texto.
+- [x] Convertir LLUC-PLANTILLASWEB.docx a texto.
+- [x] Convertir LLUC-MEJORAWEB.pptx a texto.
+- [x] Analizar el contenido extraído de SR.MUSIC-LLUC-WEB.pdf.
+- [x] Analizar el contenido extraído de LLUC-PLANTILLASWEB.docx.
+- [x] Analizar el contenido extraído de LLUC-MEJORAWEB.pptx.
+- [x] Estructurar el contenido de la landing page.
+- [x] Redactar el contenido de la landing page.
+- [x] Crear el archivo HTML de la landing page.
+- [x] Crear el archivo CSS para los estilos de la landing page.
+- [x] Probar la landing page en un navegador.
+- [x] Entregar la landing page al usuario.
+

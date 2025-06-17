@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis y Mejoras Web - SR. Music</title>
+    <meta name="description" content="Análisis completo de la web de Lluc Navarro Cots realizado por SR. Music. Descubre las mejoras propuestas y cómo implementarlas paso a paso.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logosrwmfliped.png" alt="Logo SR. Music" class="header-logo">
+            <h1>SR. MUSIC</h1>
+            <p class="subtitle">Social Responsible Music</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Análisis y Mejoras Web</h2>
+                <h3>Lluc Navarro Cots</h3>
+                <p class="hero-description">Revisión técnica, SEO y experiencia del usuario</p>
+            </div>
+        </section>
+
+        <section class="summary">
+            <div class="container">
+                <h2>Resumen Ejecutivo</h2>
+                <p>SR. Music ha realizado un análisis exhaustivo de la web de Lluc Navarro para ayudar a optimizarla. Hemos encontrado algunos detalles que se pueden mejorar, como imágenes demasiado grandes y metadescripciones que faltan.</p>
+                <p>El objetivo es ajustar esas imágenes y completar los metadatos para que la web cargue más rápido y sea más fácil de encontrar y navegar.</p>
+            </div>
+        </section>
+
+        <section class="key-points">
+            <div class="container">
+                <h2>Puntos Clave del Análisis</h2>
+                <div class="points-grid">
+                    <div class="point">
+                        <h3>Contenido</h3>
+                        <p><strong>Estado actual:</strong> Enfocado y actualizado</p>
+                        <p><strong>Evaluación:</strong> Muy bueno, excelente</p>
+                    </div>
+                    <div class="point">
+                        <h3>Rendimiento</h3>
+                        <p><strong>Estado actual:</strong> Posibles ralentizaciones</p>
+                        <p><strong>Mejora sugerida:</strong> Optimizar imágenes y compresión</p>
+                    </div>
+                    <div class="point">
+                        <h3>SEO/ALT-TEXT</h3>
+                        <p><strong>Estado actual:</strong> Faltan descripciones y alt</p>
+                        <p><strong>Mejora sugerida:</strong> Añadir metadata y alt descriptivos</p>
+                    </div>
+                    <div class="point">
+                        <h3>UX & CTAs</h3>
+                        <p><strong>Estado actual:</strong> Navegación básica</p>
+                        <p><strong>Mejora sugerida:</strong> Botones destacados y claridad</p>
+                    </div>
+                    <div class="point">
+                        <h3>Seguridad</h3>
+                        <p><strong>Estado actual:</strong> HTTPS activo</p>
+                        <p><strong>Mejora sugerida:</strong> Verificar recursos mixtos</p>
+                    </div>
+                    <div class="point">
+                        <h3>Legal</h3>
+                        <p><strong>Estado actual:</strong> Banner presente</p>
+                        <p><strong>Mejora sugerida:</strong> Permitir gestión granular</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="problems">
+            <div class="container">
+                <h2>Problemas Detectados</h2>
+                <div class="problem-list">
+                    <div class="problem-item">
+                        <h3>A. Imágenes pesadas sin optimización</h3>
+                        <p>Las imágenes actuales son demasiado grandes y ralentizan la carga de la página. Es como intentar pasar un camión grande por una carretera estrecha: el tráfico se atasca.</p>
+                    </div>
+                    <div class="problem-item">
+                        <h3>B. Faltan metadescripciones y atributos ALT</h3>
+                        <p>Sin metadescripciones claras, Google no sabe bien de qué trata tu página. La falta de 'alt' afecta la accesibilidad y el SEO.</p>
+                    </div>
+                    <div class="problem-item">
+                        <h3>C. Navegación sin llamados a la acción</h3>
+                        <p>Si un visitante no sabe qué hacer o dónde ir en tu web, es probable que se marche sin realizar ninguna acción.</p>
+                    </div>
+                    <div class="problem-item">
+                        <h3>D. Banner de cookies no cumple GDPR</h3>
+                        <p>El banner actual no respeta completamente la privacidad de los visitantes según las normativas europeas.</p>
+                    </div>
+                    <div class="problem-item">
+                        <h3>E. Posibles contenidos mixtos (HTTP/HTTPS)</h3>
+                        <p>Algunos elementos podrían estar cargando por conexiones no seguras, generando advertencias en el navegador.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="improvements">
+            <div class="container">
+                <h2>Mejoras Propuestas - Paso a Paso</h2>
+                
+                <div class="improvement-step">
+                    <h3>Paso 1: Optimización de Imágenes</h3>
+                    <p><strong>Qué haremos:</strong> Convertir imágenes a formato WebP y aplicar lazy loading</p>
+                    <p><strong>Por qué:</strong> WebP reduce drásticamente el tamaño sin perder calidad. Lazy loading carga las imágenes solo cuando el usuario las ve.</p>
+                    <div class="code-example">
+                        <h4>Ejemplo de código:</h4>
+                        <code>&lt;img src="tu-imagen.webp" alt="Descripción de la imagen" loading="lazy"&gt;</code>
+                    </div>
+                </div>
+
+                <div class="improvement-step">
+                    <h3>Paso 2: Mejoras de SEO y Accesibilidad</h3>
+                    <p><strong>Qué haremos:</strong> Añadir metadescripciones únicas y atributos ALT descriptivos</p>
+                    <p><strong>Por qué:</strong> Las metadescripciones invitan a hacer clic desde Google. Los ALT ayudan a personas con discapacidad visual y mejoran el SEO.</p>
+                    <div class="code-example">
+                        <h4>Ejemplo de metadescripción:</h4>
+                        <code>&lt;meta name="description" content="Lluc Navarro Cots – Combinando Terapia Gestalt, cuerpo, música y creatividad para acompañarte en procesos de transformación personal."&gt;</code>
+                    </div>
+                </div>
+
+                <div class="improvement-step">
+                    <h3>Paso 3: Llamadas a la Acción Claras</h3>
+                    <p><strong>Qué haremos:</strong> Implementar botones CTA visibles como "Reserva tu plaza" o "Escríbeme"</p>
+                    <p><strong>Por qué:</strong> Estos botones guían a los visitantes hacia el siguiente paso lógico, mejorando las conversiones.</p>
+                    <div class="code-example">
+                        <h4>Ejemplo de botón CTA:</h4>
+                        <code>&lt;a href="https://forms.gle/tu-link" class="cta-button"&gt;Reservar ahora&lt;/a&gt;</code>
+                    </div>
+                </div>
+
+                <div class="improvement-step">
+                    <h3>Paso 4: Cumplimiento Legal y Seguridad</h3>
+                    <p><strong>Qué haremos:</strong> Banner de cookies conforme al GDPR y revisión de contenido mixto</p>
+                    <p><strong>Por qué:</strong> Protege legalmente y genera confianza al respetar la privacidad. Elimina advertencias de seguridad.</p>
+                </div>
+
+                <div class="improvement-step">
+                    <h3>Paso 5: Experiencia de Usuario y Velocidad</h3>
+                    <p><strong>Qué haremos:</strong> CTAs intermedios, menú visible y adaptación móvil completa</p>
+                    <p><strong>Por qué:</strong> Mejora la navegación y asegura que la web funcione perfectamente en todos los dispositivos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="metadata-examples">
+            <div class="container">
+                <h2>Ejemplos de Metadatos y Accesibilidad</h2>
+                
+                <div class="example-group">
+                    <h3>Metadescripciones Sugeridas</h3>
+                    <div class="example-item">
+                        <h4>Página de Inicio</h4>
+                        <p>Lluc Navarro Cots – Combinando Terapia Gestalt, cuerpo, música y creatividad para acompañarte en procesos de transformación personal.</p>
+                    </div>
+                    <div class="example-item">
+                        <h4>Sobre mí</h4>
+                        <p>Conoce a Lluc Navarro Cots: terapeuta Gestalt con formación en bioenergética, Eneagrama y facilitador de retiros y talleres vivenciales.</p>
+                    </div>
+                    <div class="example-item">
+                        <h4>Eventos (ej. AQUIARA)</h4>
+                        <p>Descubre AQUIARA: festival-retreat de trabajo corporal y autoconocimiento (13–15 junio). Experiencias vivenciales creadas por Lluc Navarro Cots.</p>
+                    </div>
+                </div>
+
+                <div class="example-group">
+                    <h3>Texto Alternativo (ALT) para Imágenes</h3>
+                    <div class="example-item">
+                        <h4>Imagen de Portada</h4>
+                        <p><code>alt="Lluc Navarro Cots facilitando un círculo terapéutico"</code></p>
+                    </div>
+                    <div class="example-item">
+                        <h4>Cartel AQUIARA</h4>
+                        <p><code>alt="Cartel festival AQUIARA Yo Universo, 13‑15 junio"</code></p>
+                    </div>
+                    <div class="example-item">
+                        <h4>Imagen SUNJOAN</h4>
+                        <p><code>alt="Ritual de fuego y danza en SUNJOAN, solsticio en DOHM Tiana"</code></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="next-steps">
+            <div class="container">
+                <h2>¡Manos a la Obra!</h2>
+                <p>Estamos seguros de que, al implementar estas mejoras, tu web no solo tendrá un mejor rendimiento y visibilidad, sino que también ofrecerá una experiencia mucho más agradable y efectiva para tus visitantes.</p>
+                <p>En SR. Music estamos aquí para apoyarte en cada paso de este proceso.</p>
+                <div class="cta-section">
+                    <a href="https://drive.google.com/drive/folders/19prJ8QX_iDbMEVmn_RgzGFf5Fuza1Mlq?usp=sharing" class="main-cta">Comenzar Implementación</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 SR. Music - Social Responsible Music. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
+

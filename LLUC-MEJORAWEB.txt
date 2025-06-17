@@ -1,0 +1,98 @@
+ANÁLISIS Y MEJORAS WEB
+Lluc Navarro Cots
+llucnavarrocots.com
+
+REVISIÓN TÉCNICA, SEO Y
+EXPERIENCIA DEL USUARIO
+
+RESUMEN
+Sr. Music echó un vistazo a la web de Lluc Navarro para ayudar a
+optimizarla y encontró algunos detalles que se pueden mejorar,
+como imágenes demasiado grandes y metadescripciones que
+faltan.
+La cosa es ajustar esas imágenes y completar los metadatos para
+que la web cargue más rápido y sea más fácil de encontrar y
+navegar.
+Así que ahí van plantillas HTML listas para usar y un documento
+con todas las acciones recomendadas, explicado sin tecnicismos.
+
+PUNTOS CLAVE
+ÁREA
+
+ESTADO ACTUAL
+
+MEJORA SUGERIDA
+
+CONTENIDO
+
+Enfocado y actualizado
+
+Muy bueno, cojonudo.
+
+RENDIMIENTO
+
+Posibles ralentizaciones
+
+Optimizar imágenes/compressions
+
+SEO/ALT-TEXT
+
+Faltan descripciones, alt
+
+Añadir metadata y alt descriptivos
+
+UX & CTAS
+
+Navegación básica
+
+Botones destacados, claridad
+
+SEGURIDAD
+
+HTTPS activo
+
+Verificar recursos mixtos
+
+LEGAL
+
+Banner presente
+
+Permitir gestión granular
+
+PROBLEMAS
+A. Imágenes pesadas sin optimización
+B. Faltan metadescripciones y atributos ALT
+C. Navegación sin llamados a la acción
+D. Banner de cookies no cumple GDPR
+E. Posibles contenidos mixtos (HTTP/HTTPS)
+
+MEJORAS
+1. Imágenes WebP + lazy loading
+2. Metadescripciones únicas por página
+3. ALT descriptivos para accesibilidad y SEO
+4. Botones visibles de reserva y contacto
+5. Consentimiento de cookies personalizado
+
+METADATA Y ACCESIBILIDAD
+
+• <meta name='description'> optimizado por pág.
+• ALT claro en imágenes clave
+• Títulos jerarquizados (H1 > H2 > H3)
+• Mejorar contraste y estructura móvil
+
+EXPERIENCIA USUARIO Y
+VELOCIDAD
+• CTA intermedios: 'Reserva tu plaza'
+• Menú visible y botón contacto en home
+• Revisión en PageSpeed y Lighthouse
+• Adaptación total a móvil (Mobile friendly)
+
+PLANTILLAS
+• Plantilla HTML para AQUIARA y SUNJOAN
+• Word editable con SEO y textos ALT
+• ZIP descargable con documentos
+• Lista de acciones recomendadas
+
+GO!
+
+

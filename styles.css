@@ -1,0 +1,352 @@
+/* Reset y configuración base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+header .subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #666;
+    font-weight: normal;
+}
+
+/* Hero Section */
+.hero {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.hero h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Sections */
+section {
+    padding: 50px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #000;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+p {
+    margin-bottom: 15px;
+    color: #333;
+    line-height: 1.7;
+}
+
+/* Summary Section */
+.summary {
+    background-color: #fafafa;
+}
+
+.summary p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+
+/* Key Points Grid */
+.points-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.point {
+    background-color: #fff;
+    padding: 25px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.point h3 {
+    color: #000;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.point p {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+/* Problems Section */
+.problem-list {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.problem-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fafafa;
+    border-left: 4px solid #000;
+}
+
+.problem-item h3 {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+/* Improvements Section */
+.improvement-step {
+    margin-bottom: 40px;
+    padding: 25px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.improvement-step h3 {
+    color: #000;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+.code-example {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    border-left: 3px solid #000;
+}
+
+.code-example h4 {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.code-example code {
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    color: #333;
+    background-color: #fff;
+    padding: 10px;
+    display: block;
+    border-radius: 3px;
+    overflow-x: auto;
+}
+
+/* Metadata Examples */
+.example-group {
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.example-group h3 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #000;
+}
+
+.example-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fafafa;
+    border-radius: 3px;
+}
+
+.example-item h4 {
+    margin-bottom: 8px;
+    color: #000;
+}
+
+.example-item code {
+    font-family: 'Courier New', monospace;
+    background-color: #fff;
+    padding: 5px 8px;
+    border-radius: 3px;
+    font-size: 0.9rem;
+}
+
+/* Next Steps Section */
+.next-steps {
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.next-steps p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+}
+
+.cta-section {
+    margin-top: 30px;
+}
+
+.main-cta {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.main-cta:hover {
+    background-color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer p {
+    color: #fff;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+    
+    .hero h3 {
+        font-size: 1.5rem;
+    }
+    
+    .points-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .point {
+        padding: 20px;
+    }
+    
+    .improvement-step {
+        padding: 20px;
+    }
+    
+    section {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero h2 {
+        font-size: 1.6rem;
+    }
+    
+    .hero h3 {
+        font-size: 1.3rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .main-cta {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+}
+
+
+
+/* Header Logo */
+.header-logo {
+    display: block;
+    margin: 0 auto 10px auto;
+    max-width: 100px; /* Adjust as needed */
+    height: auto;
+}
+
+
